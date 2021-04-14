@@ -1,0 +1,19 @@
+.doctor-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.doctor img{
+    width: 100%;
+}
+.doctor{
+    text-align: center;
+}
+.doctor p{
+    color: dimgray;
+}
+.doctor-text{
+    color: #1fcec5;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

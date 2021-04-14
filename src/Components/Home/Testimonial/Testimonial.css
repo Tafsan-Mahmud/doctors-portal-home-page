@@ -1,0 +1,36 @@
+.tesimonial-part{
+    margin-top: 150px;
+}
+.text-part h4{
+    color: #6ACECE;
+}
+.my-card{
+    margin: 25px;
+    box-shadow: 0 0 20px rgb(197, 197, 197);
+    height: 400px;
+    width: 370px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.my-card:hover{
+    transform: scale(1.05);
+    box-shadow:0 0 30px rgb(197, 197, 197);
+}
+.my-card p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.img-name-address{
+    margin-top: 70px;
+}
+.img-name-address img {
+    margin-right: 10px;
+}
+.text-part{
+    margin-left: 45px;  
+    margin-bottom: 40px;
+    color: #3E465A;
+}
+.text-part h1{
+    font-size: 50px;
+}

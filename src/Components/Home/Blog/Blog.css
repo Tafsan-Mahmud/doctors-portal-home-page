@@ -1,0 +1,52 @@
+.blog-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.blog-text-part h3{
+    color: #6ACECE;
+    font-weight: 700;
+    font-size: 30px;
+}
+.blog-text-part h1{
+    color: #3E465A;
+    font-size: 50px;
+}
+.blog-text-part{
+    margin-bottom: 100px;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.crd-bg{
+    position: relative;
+        z-index: 42;
+        background: linear-gradient(95deg, #05c9a5, #02cfeb);
+      
+}
+.my-card2{
+        margin: 25px;
+        box-shadow: 0 0 20px rgb(197, 197, 197);
+        height: 400px;
+        width: 370px;
+        padding: 20px;
+        border: none;
+        transition: 0.3s;
+}
+.my-card2:hover{
+    transform: scale(1.05);
+    box-shadow:0 0 30px rgb(197, 197, 197);
+}
+.img-name-address2{
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.img-name-address2 img{
+    margin-right: 10px;
+}
+.my-card2 p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color:dimgray;
+}

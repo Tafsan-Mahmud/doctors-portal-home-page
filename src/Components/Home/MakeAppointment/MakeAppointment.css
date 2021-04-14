@@ -1,0 +1,63 @@
+.need-padding{
+    margin-top: 150px;
+
+}
+.banner{
+    background:url(appointmrnt.png)no-repeat fixed ;
+    background-size:cover;
+    height: 350px;
+    position: relative;
+    z-index: -1111;
+    border-radius: 20px;
+}
+.banner::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    opacity: .7;
+    background:#3A4256;
+    border-radius: 20px;
+
+}
+
+
+.doctor-img img {
+    height: 451px;
+    position: relative;
+}
+.doctor-img {
+    position: relative;
+    bottom: 101px;
+}
+.appointment-part {
+    position: relative;
+    z-index: 111;
+    margin: 50px 0;
+    color:#FFF
+}
+.appointment-part h6 {
+    color: #00eaff;
+    padding: 6px 0;
+    font-weight: 600;
+}
+.appointment-part p {
+    font-weight: 400;
+    font-size: 13px;
+    padding: 15px 0;
+}
+.my-btn{
+    background: linear-gradient(45deg, #19D3B0, #10CFE8);
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer !important;
+}
